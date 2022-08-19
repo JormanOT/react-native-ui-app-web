@@ -8,7 +8,7 @@ import react from "./react.png";
 import scene from "./scene.webp";
 import mockup from "./mockup.webp";
 
-export default {
+const object = {
   homeHero,
   homeCards,
   feature,
@@ -17,5 +17,7 @@ export default {
   javascript,
   react,
   scene,
-  mockup,
+  mockup
 };
+
+export default object;
