@@ -9,7 +9,7 @@ function Download() {
                     <h1 className={`${styles.h1Text} ${styles.blackText}`}>Descargar el codigo fuente</h1>
                     <p className={`${styles.pText} ${styles.blackText}`}>Obten el codigo fuente desde Github</p>
                 </div>
-                <button className={styles.btnPrimary}>Codigo Fuente</button>
+                <button onClick={()=> window.open("https://github.com/JormanOT/react-native-ui-app" , "_blank")} className={styles.btnPrimary}>Codigo Fuente</button>
                 <div className={styles.flexCenter}>
                     <img src={assets.scene} alt="scene" className={styles.fullImg} />
                 </div>
